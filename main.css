@@ -18,7 +18,7 @@
     padding: 3em;
     position: relative;
     right: 16em;
-    top: 1em;
+    top: 0em;
 }
 
 #navbar ul{
@@ -33,24 +33,35 @@
     margin: 1em;
     padding: 1em;
     font-size: 1.2rem;
+    
 }
 #navbar ul li a:hover{
     background-color: white;
     color: black;
     border-radius: 28px;
+    
 }
 /*home body*/
 #home{
-    background-image: url("image/A-completely-black-image_Q320.jpg") no-repeat center center/cover;
-    height: 45em;
-    width: 81em;
+    background-image: url(image/earth.jpg);
+    /* height: 100vh; */
+    /* width: 82em;
+    background-color: black; */
     color:white;
-    background-color: black;
     /* position: relative; */
-    top: 5em;
+    /* top: 0em;
     right: 0em;
-    position: absolute;
-    z-index: -1;
+    position: relative;
+    z-index: -1; */
+      /* The image used */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     
 }
 section{
@@ -64,24 +75,24 @@ h1{
 }
 .intro{
     position: relative;
-    top: 91px;
+    top: 164px;
     margin: -2px;
     font-size: 69px;
-    font-family: fantasy;
-    right:-14em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    right:-5em;
     display: inline-block;
 
 }
-#links{
+/* #links{
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 93px;
-    right: 25em;
+    top: 437px;
+    right: -37em;
     color: white;
-
-}
+    display: inline-block;
+    /* border: 2px solid red; */
 #hello{
     width: 76px;
     border-radius: 26px;
@@ -94,22 +105,175 @@ h1{
     margin: 0px;
     color: black;
 }
-#developer{
-    right: 139px;
+/* #developer{
+    right: 93px;
     position: relative;
     top: 114px;
-}
-#skill{
+} */
+/* #skill{
     border: 2px solid red;
     position: relative;
     display: inline-block;
     top: 32em;
     right: -210px;
-}
-#pp{
-    right: 257px;
-    display: inline-block;
-    background-color: black;
+} */
+#paragraph{
+    font-size: 25px;
+    padding: 222px;
+    margin: 47px;
     position: relative;
-    top: -15px;
+    top: -79px;
+}
+#git{
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 26px;
+    position: relative;
+    right: -4em;
+    top: 48px;
+}
+#fb{
+    background-color: white;
+    border-radius: 26px;
+    position: relative;
+    right: -8em;
+    top: -0px;
+}
+#lkd{
+    background-color: white;
+    border-radius: 26px;
+    position: relative;
+    right: -12em;
+    top: -47px;
+}
+#email{
+    font-size: 25px;
+    padding: 13px;
+    margin: 1px;
+    border: 2px solid black;
+    position: relative;
+    top: -13em;
+    width: 199px;
+    display: inline-block;
+    right: -20em;
+    border-radius: 43px;
+    background-color: black;
+    color: white;
+
+}
+#email:hover{
+    background-color: white;
+    color: black;
+    
+}
+#stack{
+    font-size: 37px;
+    padding: 13px;
+    margin: 1px;
+    /* border: 2px solid black; */
+    display: flex;
+    position: relative;
+    top: -6em;
+    width: 234px;
+    /* display: inline-block; */
+    right: -7em;
+    border-radius: 43px;
+    /* background-color: green; */
+    color: white;
+    background-color: none;
+}
+#html{
+    /* display: inline-flex; */
+    /* right: 14em; */
+    position: relative;
+    /* top: 274px; */
+    color: white;
+    background-color: orange;
+    border-radius: 3em;
+}
+#js{
+    /* display: inline-flex; */
+    /* right: 10em; */
+    position: relative;
+    /* top: 4em; */
+    color: white;
+    /* background-color: white; */
+    /* border-radius: 3em; */
+}
+
+#react{
+    /* display: inline-flex; */
+    /* right: 10em; */
+    position: relative;
+    /* top: 4em; */
+    
+    /* background-color: white; */
+    /* border-radius: 3em; */
+
+}
+
+#node{
+    /* display: inline-flex; */
+    /* right: 10em; */
+    position: relative;
+    /* top: 4em; */
+    color: white;
+    background-color: none;
+    border-radius: 3em;
+}
+#cpp{
+    /* display: inline-flex; */
+    /* right: 10em; */
+    position: relative;
+    /* top: 4em; */
+    color: white;
+    background-color: none;
+    border-radius: 3em;
+}
+#cv{
+    border: 2px solid black;
+    color: white;
+    background-color: saddlebrown;
+    top: -14em;
+    position: relative;
+    display: inline-block;
+    padding: 14px;
+    right: -35em;
+    border-radius: 3em;
+    text-decoration: none;
+}
+#cv:hover{
+    background-color: white;
+    color: black;
+}
+/* #cv p:hover{
+    background-color: white;
+    color: black;
+} */
+/* #cv p{
+    color:white;
+    text-decoration: none;
+} */
+#mystack{
+    font-size: 37px;
+    padding: 13px;
+    margin: 1px;
+    /* border: 2px solid black; */
+    position: relative;
+    top: -6em;
+    width: 234px;
+    display: inline-block;
+    right: -13em;
+    border-radius: 43px;
+    /* background-color: green; */
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    
+}
+#mystack:hover{
+    color: black;
+    background-color: white;
+    text-decoration: aliceblue;
+    text-transform: capitalize;
 }
